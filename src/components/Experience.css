@@ -1,0 +1,40 @@
+.Experience .name{
+    font-size: 2.5;
+    color:#272626;
+    text-align: center;
+    justify-content: center;
+    }
+  .Experience .content-1 {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .Experience .content-1 .box {
+    font-size: x-large;
+    padding: 40px;
+    margin:20px;
+    text-align: center; 
+  }
+  .Experience .content-2 .box {
+    font-size: x-large;
+    padding: 40px;
+    margin:20px;
+    text-align: center; 
+  }
+  .Experience .content-1 .box h1 {
+    color: #272626;
+  }
+    
+    .Experience .content-1 .box:hover {
+  
+        background-color: rgb(204, 200, 243);
+    }
+    .Experience .content-2 .box:hover {
+        background-color: rgb(204, 200, 243);
+    }
+  
+  .Experience .box {
+  height:350px;
+  width: 45%; 
+  float: left;
+  padding: 100px;
+  }

@@ -1,0 +1,40 @@
+.Project .name{
+    font-size: 2.5;
+    color:#272626;
+    text-align: center;
+    justify-content: center;
+    }
+  .Project .content-3 {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .Project .content-3 .box {
+    font-size: x-large;
+    padding: 40px;
+    margin:20px;
+    text-align: center; 
+  }
+  .Project .content-4 .box {
+    font-size: x-large;
+    padding: 20px;
+    margin:20px;
+    text-align: center; 
+  }
+  .Project .content-3 p span{
+    color:#272626;
+  }
+
+  .Project .box {
+    height:350px;
+    width: 45%; 
+    float: left;
+    padding: 100px;
+  }
+  .Project .content-3 .box:hover {
+    display: flex;
+    background-color: rgb(204, 200, 243);
+  }
+  .Project .content-4 .box:hover {
+    display: flex;
+    background-color: rgb(204, 200, 243);
+  }

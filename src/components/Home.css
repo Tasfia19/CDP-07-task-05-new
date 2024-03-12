@@ -1,0 +1,86 @@
+.container .box nav{
+    height: auto;
+    width: auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    padding: 20px;
+  }
+  .container .box nav ul li{
+    display: inline-flex;
+    padding: 0 20px;
+    margin:5px;
+    list-style: none;
+  }
+  .container .box nav ul li a:hover{
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #242329;
+    transition: 0.3s
+  }
+  .container .box nav ul li a:hover{
+    color: #7c8bd1;
+  }
+  .container .box nav .logo{
+    font-size: 35px;
+    color: #242329;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 30px;
+  }
+  .container .box .contains{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8%;
+    padding-left: 80px;
+  }
+  .contains .section-1{
+    position: relative;
+    width: 40%;
+  }
+  .contains .section-1 h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #242329;
+  }
+  .contains .section-1 h3{
+    color: #6f34fe;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .contains .section-1 p{
+    font-size: 18px;
+    color: #505052;
+    margin-bottom: 50px;
+  }
+  .contains .section-1 .btn{
+    padding: 15px 20px;
+    background-color: #6f34fe;
+    border: 1px solid #6f34fe;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  .contains .section-1 .btn:hover{
+    color: #6f34fe;
+    transition: 0.3s;
+    background-color: #cdddf3;
+    border: 1px solid ;
+  }
+  .contains .section-2{
+    width: 40%;
+    margin-right: 50px;
+    float: right;
+  }
+  .contains .section-2 img{
+    width: 100%;
+        float: left;
+  }
+ 
