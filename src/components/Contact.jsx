@@ -1,5 +1,11 @@
 import React from 'react'
 import './Contact.css'
+import addressImage from '../assets/address.png'
+import gitImage from '../assets/git.png'
+import gmailImage from '../assets/gmail.png'
+import phoneImage from '../assets/phone.png'
+import linkImage from '../assets/link.png'
+
 const Contact = () =>{
     return(
         <div className="container">
@@ -16,15 +22,15 @@ const Contact = () =>{
 
                 <div className="info">
                   <div className="information">
-                    <img src="./address.png" className="icon" alt="" />
+                    <img src={addressImage} className="icon" alt="" />
                     <p>Hathazary, Chittagong</p>
                   </div>
                   <div className="information">
-                    <img src="./Gmail_Logo_512px.png" className="icon" alt="" />
+                    <img src={gmailImage} className="icon" alt="" />
                     <p>tasfiachy19@gmail.com</p>
                   </div>
                   <div className="information">
-                    <img src="./phone.png" className="icon" alt="" />
+                    <img src={phoneImage} className="icon" alt="" />
                     <p>01812326039</p>
                   </div>
                 </div>
@@ -33,14 +39,14 @@ const Contact = () =>{
                   <p>Connect with us :</p>
                   <div className="social-icons">
                     <a href="https://github.com/Tasfia19" target="_blank">
-                      <img src="./25231.png" alt="GitHub Profile" className="button-image" />
+                      <img src={gitImage} alt="GitHub Profile" className="button-image" />
                     </a>
 
                     <a href="https://www.linkedin.com/in/tasfiatabassum19/" target="_blank">
-                      <img src="./LinkedIn.png" alt="LinkedIn Profile" className="button-image" />
+                      <img src={linkImage} alt="LinkedIn Profile" className="button-image" />
                     </a>
                     <a href="mailto:gmail.com">
-                      <img src="./Gmail_Logo_512px.png" alt="Email" className="button-image" />
+                      <img src={gmailImage} alt="Email" className="button-image" />
                     </a>
                   </div>
                 </div>

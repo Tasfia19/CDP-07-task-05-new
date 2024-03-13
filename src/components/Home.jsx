@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import profileImage from '../assets/mim.png'
 const Home = () =>{
     return(
       <div className="container">
@@ -21,7 +22,7 @@ const Home = () =>{
             <a className="btn" href="#Contact">Contact</a>
           </div>
           <div className="section-2">
-            <img src="./Tasfia mim.png" alt="" />
+            <img src={profileImage} alt="" />
           </div>
         </div>
       </div>
