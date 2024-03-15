@@ -83,12 +83,11 @@ html{
                  }
         .about .name{
           font-size: 18px;
-          text-align: center;
-        align-items: center;
-        padding-top: 80px;
-        padding-bottom: 80px;
+        text-align: center;
+      align-items: center;
+      padding-top: 18px;
         }
-        .about .content .line-space{
+        .about .content-1{
           font-size:15px;
         width:100%;
         height:100%;
@@ -96,7 +95,6 @@ html{
         display:flex;
         text-align:center;
         justify-content: center;
-        transition:0.3s ease-in-out;
       
       }
       .Experience .name{
@@ -169,10 +167,10 @@ html{
             width:fit-content;
           }  
           .Contact .content-5 .form .contact-form {
-            padding: 1px;
-            margin: 1px;
-            height: fit-content;
-            width:fit-content;
+            padding: 15px;
+            margin: 8px;
+            height: 5;
+            width:20;
           }  
           .contact-form {
           padding-left: 1rem;
@@ -246,23 +244,16 @@ html{
               }
               .about .name{
                 font-size: 34px;
-                text-align: center;
-              align-items: center;
-              padding-top: 100px;
-              padding-bottom: 100px;
-              }
-              .about .content p{
-                font-size: xx-large;
-              width:auto;
-              height:15px;
-              margin:10px;
-            padding:20px 15px;
-            position:relative;
-              display:flex;
-              text-align:center;
-              justify-content: center;
-              transition:0.3s ease-in-out;
-              margin-top:5%;
+              text-align: center;
+            align-items: center;
+            padding-top: 80px;
+            padding-bottom: 100px;
+            }
+              .about .content-1 {
+            font-size: large;
+              margin: 5px; 
+              padding: 5px;
+              text-align: center; 
             }
             .Experience .name{
               font-size: 34px;

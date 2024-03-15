@@ -1,12 +1,14 @@
-.about .name{
+.api{
   font-size: 2.5;
   color:#272626;
   text-align: center;
   justify-content: center;
-    }
-  .about .content-1{
-    font-size: x-large;
+  }
+
+.quote {
+  font-size: x-large;
     padding: 40px;
     margin:20px;
-    text-align: center; 
-  }
+    text-align: center;
+}
+
